@@ -7,9 +7,10 @@ public class Hello{
 		
 			System.out.println("Hello Git");
 		}
-		Calculator c = new Calculator();
 
-		System.out.println("3 + 4 = " + c.add(3,4));
-		System.out.println("3 - 4 = " + c.substrat(3,4));
+		System.out.println("3 + 4 = " + Calculator.add(3,4));
+		System.out.println("3 - 4 = " + Calculator.substrat(3,4));
+		System.out.println("3 * 4 = " + Calculator.multiply(3,4));
+		System.out.println("3 / 4 = " + Calculator.divide(3,4));
 	}
 }
